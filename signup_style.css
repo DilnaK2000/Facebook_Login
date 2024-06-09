@@ -1,0 +1,103 @@
+body{
+    background-color: #f0f2f5;
+}
+.division{
+    width: 430px;
+    height: 750px;
+    background-color: white;
+    margin-left: 510px;
+    border-radius: 6px;
+    box-shadow: 0 1px rgb(185, 179, 179),0 2px 6px rgb(185, 179, 179);
+    text-align: center;
+    padding-top: 2px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: #78797b;
+    font-weight: 200;
+    margin-top: -15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.inpt{
+    width: 164px;
+    height: 45px;
+    border-radius: 7px;
+    border: solid 1px #dddfe2;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 3px;  
+}
+.inp{
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    border: solid 1px #dddfe2;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+label{
+    margin-right: 292px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 16px;
+}
+.number{
+    width: 115px;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px  rgb(112, 115, 116) solid;
+    margin-top: 2px;
+    padding-left: 14px;
+    padding: 0 8px;
+    margin-left: 4px;
+}
+.Gd{
+    margin-right: 292px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 16px;
+}
+.pera{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 35px;
+    color: #6c7076 ;
+    line-height:1.50;
+    margin-right: 15px;
+}
+a{
+    color: #1877f2;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inp1{
+    width: 365px;
+    height: 45px;
+    border-radius: 7px;
+    border: solid 1px #dddfe2;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 8px;
+    display: none;
+}
+.inp2{
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    border: solid 1px #dddfe2;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 8px;
+    display: none;
+}

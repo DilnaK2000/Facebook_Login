@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Sign up for facebook</title>
+        <link rel="stylesheet" href="signup_style.css" type="text/css">
+        <link rel="icon" href="image/fb.icon.webp" type="icon">
+    </head>
+    <body >
+        <div style="text-align: center;">
+            <img src="image/fb logo.svg" width="500px" height="100px" >
+        </div>
+        <div class="division">
+            <h2>Create a new account</h2>
+            <h4>It's quick and easy.</h4>
+            <form>
+                <input type="text" placeholder="First Name" class="inpt">
+                <input type="text" placeholder="Surname" class="inpt">
+                <input type="tel email" placeholder="Mobile or Email Address" class="inp">
+                <input type="password" placeholder="New Password" class="inp">
+            </form>
+            <div  style ="padding-top: 12px;">
+                <form>
+                    <label>Date Of Birth</label>
+                    <select class="number">
+                        <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option> 
+                        <option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option> 
+                        <option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option>
+                        <option>16</option> <option>17</option> <option>18</option> <option>19</option> <option>20</option> 
+                        <option>21</option> <option>22</option> <option>23</option> <option>24</option> <option>25</option>
+                        <option>26</option> <option>27</option> <option>28</option> <option>29</option> <option>30</option>
+                        <option>31</option> 
+                    </select>
+                    <select class="number">
+                        <option>Jan</option> <option>Feb</option> <option>Mar</option> <option>Apr</option> <option>May</option> 
+                        <option>Jun</option> <option>July</option> <option>Aug</option> <option>Sep</option> <option>Oct</option> 
+                        <option>Nov</option> <option>Dec</option> 
+                    </select>
+                    <select class="number">
+                        <option>1962</option> <option>1963</option> <option>1964</option> <option>1965</option> <option>1966</option> 
+                        <option>1967</option> <option>1968</option> <option>1969</option> <option>1970</option> <option>1971</option> 
+                        <option>1972</option> <option>1973</option> <option>1974</option> <option>1975</option> <option>1976</option> 
+                        <option>1977</option> <option>1978</option> <option>1979</option> <option>1980</option> <option>1981</option> 
+                        <option>1982</option> <option>1983</option> <option>1984</option> <option>1985</option> <option>1986</option> 
+                        <option>1987</option> <option>1988</option> <option>1989</option> <option>1990</option> <option>1991</option> 
+                        <option>1992</option> <option>1993</option> <option>1994</option> <option>1995</option> <option>1996</option> 
+                        <option>1997</option> <option>1998</option> <option>1999</option> <option>2000</option> <option>2020</option> 
+                        <option>2021</option> <option>2022</option> <option>2023</option> <option>2024</option>
+                    </select>
+                </form>
+            </div>
+            <div style ="padding-top: 13px; margin-left: -20px;">
+                <form>
+                    <label class="Gd">Gender</label>
+                    <div style="border: 1px  rgb(112, 115, 116) solid;height: 34px; width: 111px;border-radius: 5px; 
+                    margin-left: 56px;">
+                        Female <input type="radio" name="Gender">
+                    </div>
+                    <div style="border:1px  rgb(112, 115, 116) solid;height: 34px; width: 111px;border-radius: 5px; 
+                    margin-left: 178px;margin-top: -36px;">
+                        Male <input  type="radio" name="Gender" >
+                    </div> 
+                    <div  style="border: 1px  rgb(112, 115, 116) solid;height: 34px; width: 111px;border-radius: 5px; 
+                    margin-left: 301px;margin-top: -36px;" class="demo">Custom<input  type="radio" name="Gender">
+                    </div>
+                </form>
+            </div>
+
+
+            <div >
+                <select  type="text" placeholder="Select Your pronoun" class="inp1" id="dem">
+                    <option selected="1" value="" disabled="1">Select your pronoun</option>
+                    <option value="1">She: "Wish her a happy birthday!"</option>
+                    <option value="2">He: "Wish him a happy birthday!"</option>
+                    <option value="6">They: "Wish them a happy birthday!"</option>
+                </select>
+                <p style="font-size: 12px;color: #6c7076;margin-left: -180px;font-family: Arial, Helvetica, sans-serif;display: none; " id="dem1">Your pronoun is visible to everyone.</p>
+                <input type="text" placeholder="Gender Optional" class="inp2" id="dem2">
+            </div>
+            
+            
+            <div class="pera">
+                <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+                <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS 
+                    notifications from us and can opt out at any time.</p>
+            </div>
+            <div >
+                <button style="width: 175px;height: 36px;background-color:#00a400;border-radius: 7px;font-size: 19px;
+                font-weight: 700;color: white;border: 1px;">Sign Up</button>
+            </div>
+            <div style="margin-top: 15px;">
+                <a href="file:///C:/Users/shiji/OneDrive/Desktop/HTML_Visual_Code/Facebook_login/fb_login.html">
+                    Already have an account?</a>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".demo").click(function(){
+                    $("#dem").show()
+                    $("#dem1").show()
+                    $("#dem2").show()
+                })
+            })
+        </script>
+    </body>
+</html>
